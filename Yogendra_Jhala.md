@@ -55,15 +55,15 @@ For developing the front end of the code and integrating it with blockchain (bac
 The Diamond Standard is a new structure that strengthens communication between multiple contracts through code function calls known as Delegate Calls as well as using Diamond Library(I have used dimond structure for function call). A contract that uses the external functions of other contracts (also called “facets”) is known as a ‘Diamond.’ Once deployed, several facets can be added, updated and removed in the future only through governance. This proposal standardizes diamonds, which are modular smart contract systems that can be upgraded/extended after deployment, and have virtually no size limit. More technically, a diamond is a contract with external functions that are supplied by contracts called facets. Diamond storage is a contract storage strategy that is used in proxy contract patterns and diamonds. It greatly simplifies organizing and using state variables in proxy contracts and diamonds.
 
 ###### Architecture of backend with diamond structure
-![Diamond Structure](images\diamondStructure.png)
+![Diamond Structure](./images/diamondStructure.png)
 
 
 ### CRUD Operation to election and candidate
 ###### Election flow chart
-![CRUD Operation to election](images\electionModal.png)
+![CRUD Operation to election](./images/electionModal.png)
 
 ###### Candidate flow chart
-![CRUD Operation to candidate](images\candidateModal.png)
+![CRUD Operation to candidate](./images/candidateModal.png)
 
 ### Open and Invite Based Election
 An open election is a type of election where any eligible voter can participate, regardless of their political affiliation or whether they have been invited to participate. In contrast, an invite-based election is a type of election where only voters who have been specifically invited to participate are allowed to vote. Invite-based elections can be used in situations where it is important to control the pool of voters, such as in private organizations or clubs. In an invite-based election, the organizers of the election can use various methods to invite voters, such as sending invitations via email or postal mail. It is important to note that the specific details of how open and invite-based elections are conducted can vary depending on the context and the rules set by the organizers of the election.
